@@ -137,6 +137,9 @@ On the design side, keeping the exposed machine as simple as possible paid off. 
 
 ## Stage 3: Coming soon
 
+##credits:
+Tpotce by telekom security
+Vultr VPC for hosting
 ---
 
 ## Author
