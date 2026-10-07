@@ -66,7 +66,7 @@ A closer look at the main panels:
 
 **When it happens**
 
-![Attack volume over time] (main/attacks overtime.png)
+![Attack volume over time](docs/images/Attacks-overtime.png)
 
 **Who keeps coming back**
 
