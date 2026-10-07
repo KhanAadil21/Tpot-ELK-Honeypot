@@ -41,7 +41,7 @@ Kibana is only reachable through an SSH tunnel via the honeypot VM, so nothing a
 
 ### The dashboard
 
-![Dashboard overview] (docs/images/dashboard-overview.png)
+(Tpot-ELK-Honeypot/docs/images/dashboard-overview.png)
 
 | Panel | What it shows |
 |-------|---------------|
