@@ -62,7 +62,7 @@ A closer look at the main panels:
 
 **Which sensors see the traffic**
 
-![Honeypot breakdown, all sensors next to interactive only](docs/images/honeypot-breakdown.png)
+![Honeypot breakdown, all sensors next to interactive only](docs/images/honeypot-activity-breakdown.png)
 
 **When it happens**
 
