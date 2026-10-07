@@ -23,13 +23,7 @@ Two Vultr VMs sit in the same private network.
 - **Honeypot VM** runs [T-Pot](https://github.com/telekom-security/tpotce), which is a Docker Compose stack of honeypots and network sensors. Almost the whole port range is open to the internet on purpose. Only management SSH and the T-Pot web UI are restricted to my own IP.
 - **Data server VM** runs Logstash, Elasticsearch and Kibana. It has no public exposure at all.
 
-```mermaid
-flowchart LR
-    A[Internet attackers] --> B[Honeypot VM<br/>T-Pot containers]
-    B -->|Filebeat over private network| C[Data server VM<br/>Logstash]
-    C --> D[Elasticsearch<br/>daily honeypot indices]
-    D --> E[Kibana dashboard]
-```
+![project-flow](docs/images/project-flow.png)
 
 ### How an event travels
 
